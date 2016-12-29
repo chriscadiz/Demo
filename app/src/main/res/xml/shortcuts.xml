@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut
+        android:enabled="true"
+        android:icon="@drawable/new_post"
+        android:shortcutDisabledMessage="@string/new_post"
+        android:shortcutId="post"
+        android:shortcutLongLabel="@string/new_post"
+        android:shortcutShortLabel="@string/new_post">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetClass="com.nimblinteractive.demo.PostActivity"
+            android:targetPackage="com.nimblinteractive.demo" />
+    </shortcut>
+    <shortcut
+        android:enabled="true"
+        android:icon="@drawable/new_message"
+        android:shortcutDisabledMessage="@string/new_message"
+        android:shortcutId="message"
+        android:shortcutLongLabel="@string/new_message"
+        android:shortcutShortLabel="@string/new_message">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetClass="com.nimblinteractive.demo.NewMessageActivity"
+            android:targetPackage="com.nimblinteractive.demo" />
+    </shortcut>
+</shortcuts>
